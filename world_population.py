@@ -5,7 +5,7 @@ from pygal.style import LightColorizedStyle as LCS, RotateStyle as RS
 from country_codes import get_country_code
 
 #Load the data into a list
-filename = 'Data/population_data.json'
+filename = 'population_data.json'
 with open(filename) as f:
     pop_data = json.load(f)
 
